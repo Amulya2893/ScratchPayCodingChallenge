@@ -30,8 +30,7 @@ The story files in ``src/test/resources/stories`` have the Test scenarios writte
 
 We can run the tests in 2 ways
 1. JUnit Runner - A runner file is already created in ``` src/test/java/com/runner/TestRunner.java``` file.You can simply click the run icon next to the class.
-   ![JunitRunner](/src/test/resources/Screenshots/Screenshot JUnitRunner.png?raw=true "Optional Title")
-2. Maven Command
+2. Maven Command - 
    ```mvn clean compile integration-test serenity:aggregate -Dmetafilter=+Testing```
 
 In the both the cases the tests run with the help of Meta tags(in this case "Testing") provided in the story files.
